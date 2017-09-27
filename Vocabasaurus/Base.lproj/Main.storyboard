@@ -60,7 +60,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y01-GB-cQ3">
-                                <rect key="frame" x="283" y="532" width="179" height="66"/>
+                                <rect key="frame" x="283" y="527" width="179" height="66"/>
                                 <color key="backgroundColor" red="0.24863630555136329" green="0.54806481075396973" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="179" id="2HV-pS-tbW"/>
