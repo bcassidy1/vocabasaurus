@@ -1,26 +1,103 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Vocabasaurus" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="vocabasaurus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kh-TL-ftq">
+                                <rect key="frame" x="271" y="168" width="257" height="52"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="31"/>
+                                <color key="textColor" red="0.0010021050526563763" green="0.29268539507772018" blue="0.055381229291128799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsy-lW-PvV">
+                                <rect key="frame" x="318" y="646" width="109" height="71"/>
+                                <color key="backgroundColor" red="0.090560419388327151" green="0.54295399545542011" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="K14-Kx-faK"/>
+                                    <constraint firstAttribute="height" constant="71" id="LX2-KS-Qc3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
+                                <state key="normal" title="start!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dIS-Vi-OOD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="!!!!!!!!!!!!!!!!!!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwd-pP-9wC">
+                                <rect key="frame" x="321" y="361" width="126" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="126" id="6nc-rG-NvZ"/>
+                                    <constraint firstAttribute="height" constant="21" id="JiK-Dh-vgw"/>
+                                    <constraint firstAttribute="width" constant="126" id="fyW-H1-Jt5"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="uVh-0s-zXv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dinosaur_with_tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="s1o-Bd-QS6">
+                                <rect key="frame" x="71" y="783" width="240" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y01-GB-cQ3">
+                                <rect key="frame" x="283" y="532" width="179" height="66"/>
+                                <color key="backgroundColor" red="0.24863630555136329" green="0.54806481075396973" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="179" id="2HV-pS-tbW"/>
+                                    <constraint firstAttribute="height" constant="66" id="X8s-5D-dOr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
+                                <state key="normal" title="stop!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJI-El-Qbk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21284082312830502" green="0.87797522668393779" blue="0.013092073501099524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vsy-lW-PvV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DuY-0j-gbb"/>
+                            <constraint firstItem="y01-GB-cQ3" firstAttribute="top" secondItem="Nwd-pP-9wC" secondAttribute="bottom" constant="150" id="H48-dW-cVa"/>
+                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lbo-Dd-zf4"/>
+                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="top" secondItem="2Kh-TL-ftq" secondAttribute="bottom" constant="141" id="NNC-re-pKT"/>
+                            <constraint firstItem="2Kh-TL-ftq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="148" id="PTw-5f-3nC"/>
+                            <constraint firstItem="vsy-lW-PvV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="663" id="QzT-OW-hVW"/>
+                            <constraint firstItem="2Kh-TL-ftq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dBs-rC-oHH"/>
+                            <constraint firstItem="y01-GB-cQ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vRa-DZ-yIm"/>
+                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xIB-Cv-fo9"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="Nwd-pP-9wC" id="dcf-GM-Pci"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="25.78125" y="40.4296875"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dinosaur_with_tree.png" width="712" height="613"/>
+    </resources>
 </document>

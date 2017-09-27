@@ -14,6 +14,7 @@
 		79672E891F79401C00E8D8F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79672E871F79401C00E8D8F4 /* LaunchScreen.storyboard */; };
 		79672E941F79401D00E8D8F4 /* VocabasaurusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79672E931F79401D00E8D8F4 /* VocabasaurusTests.swift */; };
 		79672E9F1F79401D00E8D8F4 /* VocabasaurusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79672E9E1F79401D00E8D8F4 /* VocabasaurusUITests.swift */; };
+		79A63F3A1F7BCC9400ACA56B /* dinosaur_with_tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A63F391F7BCC9400ACA56B /* dinosaur_with_tree.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		79672E9A1F79401D00E8D8F4 /* VocabasaurusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabasaurusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79672E9E1F79401D00E8D8F4 /* VocabasaurusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabasaurusUITests.swift; sourceTree = "<group>"; };
 		79672EA01F79401D00E8D8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A63F391F7BCC9400ACA56B /* dinosaur_with_tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dinosaur_with_tree.png; path = ../../dinosaur_with_tree.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				79672E801F79401C00E8D8F4 /* ViewController.swift */,
 				79672E821F79401C00E8D8F4 /* Main.storyboard */,
 				79672E851F79401C00E8D8F4 /* Assets.xcassets */,
+				79A63F391F7BCC9400ACA56B /* dinosaur_with_tree.png */,
 				79672E871F79401C00E8D8F4 /* LaunchScreen.storyboard */,
 				79672E8A1F79401C00E8D8F4 /* Info.plist */,
 			);
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A63F3A1F7BCC9400ACA56B /* dinosaur_with_tree.png in Resources */,
 				79672E891F79401C00E8D8F4 /* LaunchScreen.storyboard in Resources */,
 				79672E861F79401C00E8D8F4 /* Assets.xcassets in Resources */,
 				79672E841F79401C00E8D8F4 /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				79672EA51F79401D00E8D8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79672EA61F79401D00E8D8F4 /* Build configuration list for PBXNativeTarget "VocabasaurusTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				79672EA81F79401D00E8D8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79672EA91F79401D00E8D8F4 /* Build configuration list for PBXNativeTarget "VocabasaurusUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				79672EAB1F79401D00E8D8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
