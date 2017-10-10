@@ -79,6 +79,7 @@
 		79672E721F79401B00E8D8F4 = {
 			isa = PBXGroup;
 			children = (
+				79672E871F79401C00E8D8F4 /* LaunchScreen.storyboard */,
 				79672E7D1F79401C00E8D8F4 /* Vocabasaurus */,
 				79672E921F79401D00E8D8F4 /* VocabasaurusTests */,
 				79672E9D1F79401D00E8D8F4 /* VocabasaurusUITests */,
@@ -104,7 +105,6 @@
 				79672E821F79401C00E8D8F4 /* Main.storyboard */,
 				79672E851F79401C00E8D8F4 /* Assets.xcassets */,
 				79A63F391F7BCC9400ACA56B /* dinosaur_with_tree.png */,
-				79672E871F79401C00E8D8F4 /* LaunchScreen.storyboard */,
 				79672E8A1F79401C00E8D8F4 /* Info.plist */,
 			);
 			path = Vocabasaurus;
@@ -314,6 +314,7 @@
 				79672E881F79401C00E8D8F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Vocabasaurus;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,36 +21,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="vocabasaurus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kh-TL-ftq">
-                                <rect key="frame" x="271" y="168" width="257" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vocabasaurus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kh-TL-ftq">
+                                <rect key="frame" x="281" y="168" width="206" height="36"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="31"/>
                                 <color key="textColor" red="0.0010021050526563763" green="0.29268539507772018" blue="0.055381229291128799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsy-lW-PvV">
-                                <rect key="frame" x="318" y="646" width="109" height="71"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsy-lW-PvV">
+                                <rect key="frame" x="282" y="610" width="204" height="46"/>
                                 <color key="backgroundColor" red="0.090560419388327151" green="0.54295399545542011" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="109" id="K14-Kx-faK"/>
-                                    <constraint firstAttribute="height" constant="71" id="LX2-KS-Qc3"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="93w-qJ-ooS"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="204" id="FRB-X5-VYh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="57" id="WX2-be-dRZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
-                                <state key="normal" title="start!">
+                                <state key="normal" title="button3">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="startbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dIS-Vi-OOD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="!!!!!!!!!!!!!!!!!!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwd-pP-9wC">
-                                <rect key="frame" x="321" y="361" width="126" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwd-pP-9wC">
+                                <rect key="frame" x="321" y="345" width="126" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="126" id="6nc-rG-NvZ"/>
                                     <constraint firstAttribute="height" constant="21" id="JiK-Dh-vgw"/>
                                     <constraint firstAttribute="width" constant="126" id="fyW-H1-Jt5"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="uVh-0s-zXv"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -59,15 +59,33 @@
                                 <rect key="frame" x="71" y="783" width="240" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y01-GB-cQ3">
-                                <rect key="frame" x="283" y="527" width="179" height="66"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zX1-99-tEt">
+                                <rect key="frame" x="282" y="417" width="204" height="57"/>
+                                <color key="backgroundColor" red="0.0" green="0.54840745840000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="204" id="M7p-Ph-HyV"/>
+                                    <constraint firstAttribute="width" constant="204" id="TJ0-wl-Iwi"/>
+                                    <constraint firstAttribute="height" constant="57" id="Tf4-uq-L0g"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="57" id="Wfd-Bf-a9B"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="awa-Tz-w01"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XoA-Yu-bsO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y01-GB-cQ3">
+                                <rect key="frame" x="282" y="511" width="204" height="46"/>
                                 <color key="backgroundColor" red="0.24863630555136329" green="0.54806481075396973" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="179" id="2HV-pS-tbW"/>
-                                    <constraint firstAttribute="height" constant="66" id="X8s-5D-dOr"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="57" id="4JK-rC-H3b"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="N5g-up-Ygt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
-                                <state key="normal" title="stop!">
+                                <state key="normal" title="button2">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -77,20 +95,18 @@
                         </subviews>
                         <color key="backgroundColor" red="0.21284082312830502" green="0.87797522668393779" blue="0.013092073501099524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vsy-lW-PvV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DuY-0j-gbb"/>
-                            <constraint firstItem="y01-GB-cQ3" firstAttribute="top" secondItem="Nwd-pP-9wC" secondAttribute="bottom" constant="150" id="H48-dW-cVa"/>
-                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lbo-Dd-zf4"/>
+                            <constraint firstItem="y01-GB-cQ3" firstAttribute="top" secondItem="zX1-99-tEt" secondAttribute="bottom" constant="37" id="AuL-04-1Wx"/>
+                            <constraint firstItem="zX1-99-tEt" firstAttribute="top" secondItem="Nwd-pP-9wC" secondAttribute="bottom" constant="51" id="MDL-OA-1Xo"/>
                             <constraint firstItem="Nwd-pP-9wC" firstAttribute="top" secondItem="2Kh-TL-ftq" secondAttribute="bottom" constant="141" id="NNC-re-pKT"/>
                             <constraint firstItem="2Kh-TL-ftq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="148" id="PTw-5f-3nC"/>
-                            <constraint firstItem="vsy-lW-PvV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="663" id="QzT-OW-hVW"/>
+                            <constraint firstItem="vsy-lW-PvV" firstAttribute="top" secondItem="y01-GB-cQ3" secondAttribute="bottom" constant="53" id="b51-Nt-SaD"/>
                             <constraint firstItem="2Kh-TL-ftq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dBs-rC-oHH"/>
+                            <constraint firstItem="vsy-lW-PvV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="frf-Nc-NyE"/>
+                            <constraint firstItem="zX1-99-tEt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mmr-33-wC8"/>
                             <constraint firstItem="y01-GB-cQ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vRa-DZ-yIm"/>
                             <constraint firstItem="Nwd-pP-9wC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xIB-Cv-fo9"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="label" destination="Nwd-pP-9wC" id="dcf-GM-Pci"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
