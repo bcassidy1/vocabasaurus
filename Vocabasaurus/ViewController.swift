@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     //variables for every piece of text that's going to change - labels and buttons
     
     
+ 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var startbutton: UIButton!
     @IBOutlet weak var stop: UIButton!
@@ -46,16 +47,11 @@ class ViewController: UIViewController {
 
 override func viewDidLoad() {
     super.viewDidLoad()
+
     label.text = questions[0]
-    startbutton.setTitle(answers[0][0], for: .normal)
-
-
-
-
-
-
-
-
+    
+    
 }
+    
 }
 
