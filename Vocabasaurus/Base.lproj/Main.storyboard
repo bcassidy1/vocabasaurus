@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter</string>
+        </array>
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -21,18 +29,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="vocabasaurus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kh-TL-ftq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vocabasaurus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kh-TL-ftq">
                                 <rect key="frame" x="281" y="168" width="206" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="31"/>
                                 <color key="textColor" red="0.0010021050526563763" green="0.29268539507772018" blue="0.055381229291128799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsy-lW-PvV">
-                                <rect key="frame" x="256" y="584" width="204" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsy-lW-PvV">
+                                <rect key="frame" x="282" y="610" width="204" height="100"/>
                                 <color key="backgroundColor" red="0.090560419388327151" green="0.54295399545542011" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="204" id="Ogp-rR-51T"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="Ogp-rR-51T"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="SvB-qV-Zl1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
@@ -40,30 +47,25 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="startbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dIS-Vi-OOD"/>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vMg-pc-jkt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwd-pP-9wC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwd-pP-9wC">
                                 <rect key="frame" x="321" y="231" width="126" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="126" id="6nc-rG-NvZ"/>
                                     <constraint firstAttribute="height" constant="21" id="JiK-Dh-vgw"/>
-                                    <constraint firstAttribute="width" constant="126" id="fyW-H1-Jt5"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="uVh-0s-zXv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dinosaur_with_tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="s1o-Bd-QS6">
-                                <rect key="frame" x="71" y="783" width="240" height="156"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zX1-99-tEt">
-                                <rect key="frame" x="256" y="327" width="204" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zX1-99-tEt">
+                                <rect key="frame" x="282" y="326" width="204" height="100"/>
                                 <color key="backgroundColor" red="0.0" green="0.54840745840000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="204" id="TJ0-wl-Iwi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="TJ0-wl-Iwi"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="ryQ-KN-dWS" userLabel="height = 100"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
@@ -71,14 +73,14 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XoA-Yu-bsO"/>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LbO-2C-5zp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y01-GB-cQ3">
-                                <rect key="frame" x="256" y="489" width="204" height="46"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y01-GB-cQ3">
+                                <rect key="frame" x="282" y="462" width="204" height="100"/>
                                 <color key="backgroundColor" red="0.24863630555136329" green="0.54806481075396973" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="204" id="MBM-pw-bt8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="MBM-pw-bt8"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="n3O-KD-2bN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
@@ -86,19 +88,44 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJI-El-Qbk"/>
+                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KNO-dd-maG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8r-3e-Tvv">
+                                <rect key="frame" x="282" y="393" width="205" height="71"/>
+                                <color key="backgroundColor" red="1" green="0.33080697563244033" blue="0.22745096818452393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="205" id="Mfq-UG-3Qn"/>
+                                    <constraint firstAttribute="height" constant="71" id="OTs-fx-xra"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fqc-TQ-h45"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.21284082312830502" green="0.87797522668393779" blue="0.013092073501099524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="y01-GB-cQ3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5I9-mc-FMw"/>
+                            <constraint firstItem="vsy-lW-PvV" firstAttribute="top" secondItem="y01-GB-cQ3" secondAttribute="bottom" constant="48" id="8XZ-xp-3yd"/>
+                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="centerX" secondItem="2Kh-TL-ftq" secondAttribute="centerX" id="JAf-JO-gxW"/>
                             <constraint firstItem="y01-GB-cQ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L4H-TP-Ref"/>
+                            <constraint firstItem="G8r-3e-Tvv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PHW-TI-Qyf"/>
+                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="231" id="UZ2-L1-1MN"/>
                             <constraint firstItem="vsy-lW-PvV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YyI-ON-QCV"/>
+                            <constraint firstItem="G8r-3e-Tvv" firstAttribute="top" secondItem="Nwd-pP-9wC" secondAttribute="bottom" constant="141" id="aZd-cd-JPr"/>
                             <constraint firstItem="zX1-99-tEt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bRs-TL-Wnl"/>
+                            <constraint firstItem="zX1-99-tEt" firstAttribute="top" secondItem="Nwd-pP-9wC" secondAttribute="bottom" constant="74" id="lcQ-gH-0Zs"/>
+                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="top" secondItem="2Kh-TL-ftq" secondAttribute="bottom" constant="27" id="pJK-ox-oMT"/>
+                            <constraint firstItem="Nwd-pP-9wC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vJb-1g-0Bn"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button1" destination="zX1-99-tEt" id="qpA-bU-djK"/>
+                        <outlet property="button2" destination="y01-GB-cQ3" id="eel-mt-hzT"/>
+                        <outlet property="button3" destination="vsy-lW-PvV" id="hFd-kj-vb0"/>
                         <outlet property="label" destination="Nwd-pP-9wC" id="REY-ch-EPm"/>
+                        <outlet property="nextQuestion" destination="G8r-3e-Tvv" id="HWo-c8-2T5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -106,7 +133,4 @@
             <point key="canvasLocation" x="25.78125" y="40.4296875"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="dinosaur_with_tree.png" width="712" height="613"/>
-    </resources>
 </document>
