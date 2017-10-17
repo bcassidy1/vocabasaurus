@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         else {
             questionNumber = 0
         }
+        displayQuestions()
         button1.isHidden = false
         button2.isHidden = false
         button3.isHidden = false
